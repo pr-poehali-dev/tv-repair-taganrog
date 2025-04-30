@@ -104,8 +104,8 @@ const Index = () => {
                 <Clock className="h-6 w-6 text-purple-700" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Оперативный выезд</h3>
-                <p className="text-gray-600">Мастер приедет в течение 1-2 часов после звонка</p>
+                <h3 className="text-xl font-bold mb-2">Работаем без выходных</h3>
+                <p className="text-gray-600">Принимаем заявки и выполняем ремонт 7 дней в неделю с 9:00 до 20:00</p>
               </div>
             </div>
             
@@ -148,7 +148,8 @@ const Index = () => {
                 <Clock className="h-6 w-6 text-purple-700 mr-3 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-xl font-bold mb-1">Режим работы</h3>
-                  <p className="text-gray-600">Пн-Пт: 9:00-19:00<br />Сб: 10:00-17:00<br />Вс: выходной</p>
+                  <p className="text-gray-600">Ежедневно: 9:00-20:00</p>
+                  <p className="text-purple-700 font-semibold mt-1">Работаем без выходных!</p>
                 </div>
               </div>
             </div>
