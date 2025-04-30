@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Phone, Clock, Tool, Award, MapPin, ArrowRight } from "lucide-react";
+import { Phone, Clock, Wrench, Award, MapPin, ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
@@ -51,7 +51,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="p-6 hover:shadow-lg transition duration-300">
               <div className="rounded-full bg-purple-100 w-16 h-16 flex items-center justify-center mb-4">
-                <Tool className="h-8 w-8 text-purple-700" />
+                <Wrench className="h-8 w-8 text-purple-700" />
               </div>
               <h3 className="text-xl font-bold mb-2">Диагностика неисправностей</h3>
               <p className="text-gray-600 mb-4">Точное определение причины поломки телевизора с использованием профессионального оборудования</p>
@@ -60,7 +60,7 @@ const Index = () => {
             
             <Card className="p-6 hover:shadow-lg transition duration-300">
               <div className="rounded-full bg-purple-100 w-16 h-16 flex items-center justify-center mb-4">
-                <Tool className="h-8 w-8 text-purple-700" />
+                <Wrench className="h-8 w-8 text-purple-700" />
               </div>
               <h3 className="text-xl font-bold mb-2">Ремонт ЖК и LED телевизоров</h3>
               <p className="text-gray-600 mb-4">Устранение неисправностей любой сложности в телевизорах Samsung, LG, Sony и других марок</p>
@@ -69,7 +69,7 @@ const Index = () => {
             
             <Card className="p-6 hover:shadow-lg transition duration-300">
               <div className="rounded-full bg-purple-100 w-16 h-16 flex items-center justify-center mb-4">
-                <Tool className="h-8 w-8 text-purple-700" />
+                <Wrench className="h-8 w-8 text-purple-700" />
               </div>
               <h3 className="text-xl font-bold mb-2">Замена комплектующих</h3>
               <p className="text-gray-600 mb-4">Профессиональная замена экранов, блоков питания, материнских плат и других деталей</p>
@@ -111,7 +111,7 @@ const Index = () => {
             
             <div className="flex items-start">
               <div className="rounded-full bg-purple-100 p-3 mr-4">
-                <Tool className="h-6 w-6 text-purple-700" />
+                <Wrench className="h-6 w-6 text-purple-700" />
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Опытные мастера</h3>
