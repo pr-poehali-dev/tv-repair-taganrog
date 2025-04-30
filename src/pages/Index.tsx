@@ -12,7 +12,7 @@ const Index = () => {
           <div className="text-2xl font-bold">ТВ-Сервис Таганрог</div>
           <div className="flex items-center mt-3 md:mt-0">
             <Phone className="h-5 w-5 mr-2" />
-            <a href="tel:+78634123456" className="text-lg hover:underline">+7 (8634) 12-34-56</a>
+            <a href="tel:+79612920913" className="text-lg hover:underline">+7 961 292-09-13</a>
           </div>
         </div>
       </header>
@@ -140,7 +140,7 @@ const Index = () => {
                 <Phone className="h-6 w-6 text-purple-700 mr-3 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-xl font-bold mb-1">Телефон</h3>
-                  <p className="text-gray-600">+7 (8634) 12-34-56</p>
+                  <p className="text-gray-600">+7 961 292-09-13</p>
                 </div>
               </div>
               
@@ -175,9 +175,9 @@ const Index = () => {
             <div className="text-xl font-bold mb-4 md:mb-0">ТВ-Сервис Таганрог</div>
             <div className="text-gray-400">© 2025 Все права защищены</div>
             <div className="mt-4 md:mt-0">
-              <a href="tel:+78634123456" className="flex items-center hover:text-purple-400 transition">
+              <a href="tel:+79612920913" className="flex items-center hover:text-purple-400 transition">
                 <Phone className="h-5 w-5 mr-2" />
-                +7 (8634) 12-34-56
+                +7 961 292-09-13
               </a>
             </div>
           </div>
