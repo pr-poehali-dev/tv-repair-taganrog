@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { LucideAd, LucideLoader2 } from "lucide-react";
+import { Ad, Loader2 } from "lucide-react";
 
 interface AdvertisementProps {
   type?: "banner" | "sidebar" | "popup";
@@ -66,7 +66,7 @@ export const Advertisement = ({
         variant="outline" 
         className="absolute top-2 left-2 z-10 bg-background/80 text-xs"
       >
-        <LucideAd className="mr-1 h-3 w-3" /> Реклама
+        <Ad className="mr-1 h-3 w-3" /> Реклама
       </Badge>
       
       {adLoaded ? (
@@ -82,7 +82,7 @@ export const Advertisement = ({
         </div>
       ) : (
         <div className="w-full h-full flex items-center justify-center bg-muted/30 animate-pulse">
-          <LucideLoader2 className="w-6 h-6 text-muted-foreground animate-spin" />
+          <Loader2 className="w-6 h-6 text-muted-foreground animate-spin" />
         </div>
       )}
     </Card>
